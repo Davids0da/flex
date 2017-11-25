@@ -1,5 +1,4 @@
-
-function myMap()
+function initMap()
 {
   myCenter=new google.maps.LatLng(44.7628933, 19.6945595);
   var mapOptions= {
@@ -13,7 +12,7 @@ function myMap()
     position: myCenter,
   });
   marker.setMap(map);
-}
+};
 
 // Modal Image Gallery
 function onClick(element) {
@@ -21,7 +20,7 @@ function onClick(element) {
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
-}
+};
 
 $(document).ready(() => {
     $('#myNavbar a, footer a').click(function (e) {
@@ -41,7 +40,7 @@ function myFunction() {
     } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
     }
-}
+};
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
@@ -51,4 +50,4 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
-}
+};
