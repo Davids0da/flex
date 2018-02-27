@@ -21,7 +21,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("/images/background2.JPG");
+    background-image: url("/images/background4.JPG");
     min-height: 600px;
 }
 
@@ -42,4 +42,26 @@ body, html {
 }
 .w3-kesa {
     margin-top: 6%;
+}
+#google-map { 
+    width: 100%;
+}
+#contact-box { 
+    width: 85%;
+    margin: auto;
+}
+.underline {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding-bottom: 3px;
+}
+#aba { 
+    font-size: 20px;
+}
+
+#about { 
+    text-align: left;
+}
+strong { 
+   color: 00668F;
 }
