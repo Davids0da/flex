@@ -60,8 +60,18 @@ body, html {
 }
 
 #about { 
-    text-align: left;
+    text-align: justify;
 }
-strong { 
-   color: 00668F;
+.bla { 
+    text-align: justify;
+}
+i { color: #EE1E23;}
+.red-color { 
+    color: #EE1E23;
+}
+.laso {
+    margin-right: 5px;
+}
+.truc { 
+    border-bottom: 1px solid #EE1E23;
 }
