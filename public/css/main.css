@@ -78,3 +78,16 @@ i { color: #EE1E23;}
 #portfolio { 
     padding-bottom: 0px !important;
 }
+#slika1234 { 
+    display: none;
+}
+@media only screen and (max-device-width: 600px) {
+  #slika123 { 
+      display: none;
+  }
+  #slika1234 { 
+      display: block;
+      width: 120% !important;
+      margin-left: -45px !important;
+  }
+}

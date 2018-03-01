@@ -12,6 +12,23 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -44,7 +61,7 @@
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container" id="home">
     <div class="w3-display-middle" style="white-space:nowrap;">
-      <img style="width: 300px" src="../../images/logo.png">
+      <img class="w3-animate-top" style="width: 300px" src="../../images/logo.png">
     </div>
   </div>
 
@@ -54,8 +71,8 @@
       <strong style="color: #00668F">About us</strong>
     </h3>
     <p>Flex Point D.o.o. company produces paper bags with the vision of creating a greener and more environmentally sustainable
-      approach to supplying food packaging throughout the Serbia and Europe. Based in the Serbia, we manufacture SOS paper bags
-      as well as offering a service for printing onto our paper bags. We are however, proud of our ability to continually
+      approach to supplying food packaging throughout the Serbia and Europe. Based in the Serbia, we manufacture SOS paper
+      bags as well as offering a service for printing onto our paper bags. We are however, proud of our ability to continually
       produce outstanding environmentally green products at a down to earth price.
       <br>
       <br>
@@ -90,8 +107,8 @@
       <strong style="color: #00668F">Block bottom bags</strong>
     </h3>
     <p class="w3-center">
-      Flex Point D.o.o. sells a wide variety of SOS Block Bottom Bags and more, for you convenience. These are available in White or Brown,
-      and in a great range of different sizes and colors.
+      Flex Point D.o.o. sells a wide variety of SOS Block Bottom Bags and more, for you convenience. These are available in White
+      or Brown, and in a great range of different sizes and colors.
     </p>
     <br>
 
@@ -100,15 +117,23 @@
       <div class="w3-col m4 bla">
         <img src="../../images/bags1.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
         <p> Our Brown SOS Block Bottom are ideal for Groceries Shops, Bakeries, Delis, Confectionery but also great for Craft
-          Shops, DIY shops etc etc! <br> <br> <em style="color:#EE1E23;">GSM of brown paper: 60g - 80g </em>
+          Shops, DIY shops etc etc!
+          <br>
+          <br>
+          <em style="color:#EE1E23;">GSM of brown paper: 60g - 80g </em>
         </p>
       </div>
 
       <div class="w3-col m4">
         <img src="../../images/bags2.jpg" style="width:55%; margin-top: 35px;" onclick="onClick(this)" class="w3-hover-opacity">
         <p class="bla"> Our White SOS Block Bottom are ideal for Pharmacies, Bakeries, Delis, Confectionery but also great for Craft Shops,
-          DIY shops etc etc! <br> <br> <em style="color:#EE1E23;">GSM of white paper: 70g - 120g </em></p>
-          <img src="../../images/size.jpg" style="width:200%; margin-left: -110px; margin-top: -10px;" onclick="onClick(this)" class="w3-hover-opacity">
+          DIY shops etc etc!
+          <br>
+          <br>
+          <em style="color:#EE1E23;">GSM of white paper: 70g - 120g </em>
+        </p>
+        <img id="slika123" src="../../images/size.jpg" style="width:200%; margin-left: -110px; margin-top: -10px;" onclick="onClick(this)"
+          class="w3-hover-opacity">
       </div>
 
       <div class="w3-col m4 bla">
@@ -116,11 +141,13 @@
           class="w3-hover-opacity" alt="The mist">
         <p> Build your image with every purchase with printed paper bags! One of the most versatile items that can be personalized,
           printed paper bags are a great way to spread your message or boost the style of your busines. </p>
+        <img id="slika1234" src="../../images/size2.jpg" style="width:200%; margin-left: -110px; margin-top: -10px;" onclick="onClick(this)"
+          class="w3-hover-opacity">
       </div>
     </div>
-      <p> 
-      </p>
-    </div>
+    <p>
+    </p>
+  </div>
   </div>
 
   <!-- Modal for full size images on click-->
@@ -160,7 +187,7 @@
         <br>
       </div>
       <div class="w3-col m6 w3-left w3-padding-large">
-        <form style="width: 520px;" action="https://formspree.io/vojislav.simic@flexpoint.rs" method="POST">
+        <form style="width: 100%;" action="https://formspree.io/vojislav.simic@flexpoint.rs" method="POST">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="First name" required name="Ime">
